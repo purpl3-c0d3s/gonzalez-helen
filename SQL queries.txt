@@ -1,0 +1,11 @@
+Query that shows xyz 
+
+SELECT column, 
+CASE WHEN x THEN y ELSE END as statement 
+FROM table x1
+JOIN table2 x2 ON x1.id = x2.id
+WHERE column = 'x'
+ORDER BY 
+HAVING
+LIMIT
+
